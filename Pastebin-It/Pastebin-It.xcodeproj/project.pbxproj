@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C98ADAC6142C883B00B68D51 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98ADAC5142C883B00B68D51 /* Cocoa.framework */; };
+		C98ADAD0142C883B00B68D51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C98ADACE142C883B00B68D51 /* InfoPlist.strings */; };
+		C98ADAD2142C883B00B68D51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C98ADAD1142C883B00B68D51 /* main.m */; };
+		C98ADAD6142C883B00B68D51 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C98ADAD4142C883B00B68D51 /* Credits.rtf */; };
+		C98ADADC142C883B00B68D51 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C98ADADA142C883B00B68D51 /* MainMenu.xib */; };
+		C98ADAE4142C896A00B68D51 /* PBAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = C98ADAE3142C896A00B68D51 /* PBAppController.m */; };
+		C98ADAE7142C89F600B68D51 /* PBPasteWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = C98ADAE6142C89F600B68D51 /* PBPasteWindowController.m */; };
+		C98ADAE9142C8A1200B68D51 /* PBPasteWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C98ADAE8142C8A1200B68D51 /* PBPasteWindow.xib */; };
+		C98ADAEC142C8AE900B68D51 /* PBPaste.m in Sources */ = {isa = PBXBuildFile; fileRef = C98ADAEB142C8AE900B68D51 /* PBPaste.m */; };
+		C98ADAEF142C8B9700B68D51 /* PBPasteFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = C98ADAEE142C8B9700B68D51 /* PBPasteFormat.m */; };
+		C98ADAF1142C8D9E00B68D51 /* formats.txt in Resources */ = {isa = PBXBuildFile; fileRef = C98ADAF0142C8D9E00B68D51 /* formats.txt */; };
+		C98ADAF7142C8ECA00B68D51 /* make_plists.rb in Resources */ = {isa = PBXBuildFile; fileRef = C98ADAF6142C8ECA00B68D51 /* make_plists.rb */; };
+		C98ADAFD142CA06000B68D51 /* formats.plist in Resources */ = {isa = PBXBuildFile; fileRef = C98ADAFC142CA06000B68D51 /* formats.plist */; };
+		C98ADB02142CA20300B68D51 /* PBPasteExpiry.m in Sources */ = {isa = PBXBuildFile; fileRef = C98ADB01142CA20300B68D51 /* PBPasteExpiry.m */; };
+		C98ADB05142CC66B00B68D51 /* expiries.txt in Resources */ = {isa = PBXBuildFile; fileRef = C98ADB04142CC66B00B68D51 /* expiries.txt */; };
+		C98ADB07142CC68A00B68D51 /* expiries.plist in Resources */ = {isa = PBXBuildFile; fileRef = C98ADB06142CC68A00B68D51 /* expiries.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C98ADAFE142CA0F100B68D51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C98ADAB8142C883B00B68D51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C98ADAF8142C9FC000B68D51;
+			remoteInfo = "Make Plists";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C98ADAC1142C883B00B68D51 /* Pastebin-It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pastebin-It.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C98ADAC5142C883B00B68D51 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C98ADAC8142C883B00B68D51 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C98ADAC9142C883B00B68D51 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C98ADACA142C883B00B68D51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C98ADACD142C883B00B68D51 /* Pastebin-It-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pastebin-It-Info.plist"; sourceTree = "<group>"; };
+		C98ADACF142C883B00B68D51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C98ADAD1142C883B00B68D51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C98ADAD3142C883B00B68D51 /* Pastebin-It-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pastebin-It-Prefix.pch"; sourceTree = "<group>"; };
+		C98ADAD5142C883B00B68D51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C98ADADB142C883B00B68D51 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C98ADAE2142C896A00B68D51 /* PBAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBAppController.h; sourceTree = "<group>"; };
+		C98ADAE3142C896A00B68D51 /* PBAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBAppController.m; sourceTree = "<group>"; };
+		C98ADAE5142C89F600B68D51 /* PBPasteWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBPasteWindowController.h; sourceTree = "<group>"; };
+		C98ADAE6142C89F600B68D51 /* PBPasteWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBPasteWindowController.m; sourceTree = "<group>"; };
+		C98ADAE8142C8A1200B68D51 /* PBPasteWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PBPasteWindow.xib; sourceTree = "<group>"; };
+		C98ADAEA142C8AE900B68D51 /* PBPaste.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBPaste.h; sourceTree = "<group>"; };
+		C98ADAEB142C8AE900B68D51 /* PBPaste.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBPaste.m; sourceTree = "<group>"; };
+		C98ADAED142C8B9700B68D51 /* PBPasteFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBPasteFormat.h; sourceTree = "<group>"; };
+		C98ADAEE142C8B9700B68D51 /* PBPasteFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBPasteFormat.m; sourceTree = "<group>"; };
+		C98ADAF0142C8D9E00B68D51 /* formats.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = formats.txt; sourceTree = "<group>"; };
+		C98ADAF6142C8ECA00B68D51 /* make_plists.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = make_plists.rb; sourceTree = "<group>"; };
+		C98ADAFC142CA06000B68D51 /* formats.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = formats.plist; sourceTree = "<group>"; };
+		C98ADB00142CA20300B68D51 /* PBPasteExpiry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBPasteExpiry.h; sourceTree = "<group>"; };
+		C98ADB01142CA20300B68D51 /* PBPasteExpiry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBPasteExpiry.m; sourceTree = "<group>"; };
+		C98ADB04142CC66B00B68D51 /* expiries.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = expiries.txt; sourceTree = "<group>"; };
+		C98ADB06142CC68A00B68D51 /* expiries.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = expiries.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C98ADABE142C883B00B68D51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98ADAC6142C883B00B68D51 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C94826621430931D001D87A8 /* Bootstrap */ = {
+			isa = PBXGroup;
+			children = (
+				C98ADAE2142C896A00B68D51 /* PBAppController.h */,
+				C98ADAE3142C896A00B68D51 /* PBAppController.m */,
+				C98ADADA142C883B00B68D51 /* MainMenu.xib */,
+			);
+			name = Bootstrap;
+			sourceTree = "<group>";
+		};
+		C98ADAB6142C883B00B68D51 = {
+			isa = PBXGroup;
+			children = (
+				C98ADAF5142C8EA600B68D51 /* Scripts */,
+				C98ADACB142C883B00B68D51 /* Pastebin-It */,
+				C98ADAC4142C883B00B68D51 /* Frameworks */,
+				C98ADAC2142C883B00B68D51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C98ADAC2142C883B00B68D51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C98ADAC1142C883B00B68D51 /* Pastebin-It.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C98ADAC4142C883B00B68D51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C98ADAC5142C883B00B68D51 /* Cocoa.framework */,
+				C98ADAC7142C883B00B68D51 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C98ADAC7142C883B00B68D51 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C98ADAC8142C883B00B68D51 /* AppKit.framework */,
+				C98ADAC9142C883B00B68D51 /* CoreData.framework */,
+				C98ADACA142C883B00B68D51 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C98ADACB142C883B00B68D51 /* Pastebin-It */ = {
+			isa = PBXGroup;
+			children = (
+				C98ADACC142C883B00B68D51 /* Supporting Files */,
+				C94826621430931D001D87A8 /* Bootstrap */,
+				C98ADAE5142C89F600B68D51 /* PBPasteWindowController.h */,
+				C98ADAE6142C89F600B68D51 /* PBPasteWindowController.m */,
+				C98ADAE8142C8A1200B68D51 /* PBPasteWindow.xib */,
+				C98ADAEA142C8AE900B68D51 /* PBPaste.h */,
+				C98ADAEB142C8AE900B68D51 /* PBPaste.m */,
+				C98ADAF4142C8E9A00B68D51 /* Formats */,
+				C98ADB03142CA20F00B68D51 /* Expiries */,
+			);
+			path = "Pastebin-It";
+			sourceTree = "<group>";
+		};
+		C98ADACC142C883B00B68D51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C98ADACD142C883B00B68D51 /* Pastebin-It-Info.plist */,
+				C98ADACE142C883B00B68D51 /* InfoPlist.strings */,
+				C98ADAD1142C883B00B68D51 /* main.m */,
+				C98ADAD3142C883B00B68D51 /* Pastebin-It-Prefix.pch */,
+				C98ADAD4142C883B00B68D51 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C98ADAF4142C8E9A00B68D51 /* Formats */ = {
+			isa = PBXGroup;
+			children = (
+				C98ADAED142C8B9700B68D51 /* PBPasteFormat.h */,
+				C98ADAEE142C8B9700B68D51 /* PBPasteFormat.m */,
+				C98ADAF0142C8D9E00B68D51 /* formats.txt */,
+				C98ADAFC142CA06000B68D51 /* formats.plist */,
+			);
+			name = Formats;
+			sourceTree = "<group>";
+		};
+		C98ADAF5142C8EA600B68D51 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				C98ADAF6142C8ECA00B68D51 /* make_plists.rb */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		C98ADB03142CA20F00B68D51 /* Expiries */ = {
+			isa = PBXGroup;
+			children = (
+				C98ADB00142CA20300B68D51 /* PBPasteExpiry.h */,
+				C98ADB01142CA20300B68D51 /* PBPasteExpiry.m */,
+				C98ADB04142CC66B00B68D51 /* expiries.txt */,
+				C98ADB06142CC68A00B68D51 /* expiries.plist */,
+			);
+			name = Expiries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		C98ADAF8142C9FC000B68D51 /* Make Plists */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(PROJECT_DIR)/make_plists.rb";
+			buildConfigurationList = C98ADAF9142C9FC000B68D51 /* Build configuration list for PBXLegacyTarget "Make Plists" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/ruby;
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = "Make Plists";
+			passBuildSettingsInEnvironment = 1;
+			productName = "Make Plists";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		C98ADAC0142C883B00B68D51 /* Pastebin-It */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C98ADADF142C883B00B68D51 /* Build configuration list for PBXNativeTarget "Pastebin-It" */;
+			buildPhases = (
+				C98ADABD142C883B00B68D51 /* Sources */,
+				C98ADABE142C883B00B68D51 /* Frameworks */,
+				C98ADABF142C883B00B68D51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C98ADAFF142CA0F100B68D51 /* PBXTargetDependency */,
+			);
+			name = "Pastebin-It";
+			productName = "Pastebin-It";
+			productReference = C98ADAC1142C883B00B68D51 /* Pastebin-It.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C98ADAB8142C883B00B68D51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "XciteLogic Development";
+			};
+			buildConfigurationList = C98ADABB142C883B00B68D51 /* Build configuration list for PBXProject "Pastebin-It" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C98ADAB6142C883B00B68D51;
+			productRefGroup = C98ADAC2142C883B00B68D51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C98ADAC0142C883B00B68D51 /* Pastebin-It */,
+				C98ADAF8142C9FC000B68D51 /* Make Plists */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C98ADABF142C883B00B68D51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98ADAD0142C883B00B68D51 /* InfoPlist.strings in Resources */,
+				C98ADAD6142C883B00B68D51 /* Credits.rtf in Resources */,
+				C98ADADC142C883B00B68D51 /* MainMenu.xib in Resources */,
+				C98ADAE9142C8A1200B68D51 /* PBPasteWindow.xib in Resources */,
+				C98ADAF1142C8D9E00B68D51 /* formats.txt in Resources */,
+				C98ADAF7142C8ECA00B68D51 /* make_plists.rb in Resources */,
+				C98ADAFD142CA06000B68D51 /* formats.plist in Resources */,
+				C98ADB05142CC66B00B68D51 /* expiries.txt in Resources */,
+				C98ADB07142CC68A00B68D51 /* expiries.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C98ADABD142C883B00B68D51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98ADAD2142C883B00B68D51 /* main.m in Sources */,
+				C98ADAE4142C896A00B68D51 /* PBAppController.m in Sources */,
+				C98ADAE7142C89F600B68D51 /* PBPasteWindowController.m in Sources */,
+				C98ADAEC142C8AE900B68D51 /* PBPaste.m in Sources */,
+				C98ADAEF142C8B9700B68D51 /* PBPasteFormat.m in Sources */,
+				C98ADB02142CA20300B68D51 /* PBPasteExpiry.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C98ADAFF142CA0F100B68D51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C98ADAF8142C9FC000B68D51 /* Make Plists */;
+			targetProxy = C98ADAFE142CA0F100B68D51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C98ADACE142C883B00B68D51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C98ADACF142C883B00B68D51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C98ADAD4142C883B00B68D51 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C98ADAD5142C883B00B68D51 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C98ADADA142C883B00B68D51 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C98ADADB142C883B00B68D51 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C98ADADD142C883B00B68D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /Applications;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C98ADADE142C883B00B68D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /Applications;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C98ADAE0142C883B00B68D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pastebin-It/Pastebin-It-Prefix.pch";
+				INFOPLIST_FILE = "Pastebin-It/Pastebin-It-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C98ADAE1142C883B00B68D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pastebin-It/Pastebin-It-Prefix.pch";
+				INFOPLIST_FILE = "Pastebin-It/Pastebin-It-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C98ADAFA142C9FC000B68D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C98ADAFB142C9FC000B68D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C98ADABB142C883B00B68D51 /* Build configuration list for PBXProject "Pastebin-It" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C98ADADD142C883B00B68D51 /* Debug */,
+				C98ADADE142C883B00B68D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C98ADADF142C883B00B68D51 /* Build configuration list for PBXNativeTarget "Pastebin-It" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C98ADAE0142C883B00B68D51 /* Debug */,
+				C98ADAE1142C883B00B68D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C98ADAF9142C9FC000B68D51 /* Build configuration list for PBXLegacyTarget "Make Plists" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C98ADAFA142C9FC000B68D51 /* Debug */,
+				C98ADAFB142C9FC000B68D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C98ADAB8142C883B00B68D51 /* Project object */;
+}
