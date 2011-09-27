@@ -99,7 +99,7 @@ static NSArray* __allExpiries = nil;
         [expiriesObjects addObject:expiry];
     }];
     
-    return [[expiriesObjects copy] autorelease];
+    return [expiriesObjects copy];
 }
 
 + (PBPasteExpiry*)_expiryWithKey:(NSString*)key

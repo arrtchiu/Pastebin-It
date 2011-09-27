@@ -103,7 +103,7 @@ static NSArray* __allFormats = nil;
         [formatObjects addObject:format];
     }];
     
-    return [[formatObjects copy] autorelease];
+    return [formatObjects copy];
 }
 
 + (PBPasteFormat*)_formatWithKey:(NSString*)key
